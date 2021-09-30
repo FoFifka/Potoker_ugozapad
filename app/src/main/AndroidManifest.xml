@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pinky.potoker">
+
+    <uses-permission android:name="android.permission.SET_ALARM"/>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ПомощникОКЮгоЗапад">
+        <activity android:name=".MainActivity"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.Launcher"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Schedule"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".ChooseStream"
+            android:noHistory="true"
+            android:screenOrientation="portrait"/>
+
+        <receiver android:name=".structure.lessonsReminders.LessonReminder1start"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder2start"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder3start"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder4start"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder5start"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder6start"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder7start"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder8start"/>
+
+        <receiver android:name=".structure.lessonsReminders.LessonReminder1end"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder2end"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder3end"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder4end"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder5end"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder6end"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder7end"/>
+        <receiver android:name=".structure.lessonsReminders.LessonReminder8end"/>
+
+
+    </application>
+
+</manifest>

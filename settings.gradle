@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Помощник ОК Юго-Запад"

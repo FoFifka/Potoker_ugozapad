@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Помощник ОК Юго-Запад</string>
+    <string name="choose_stream_title">Выберите поток</string>
+    <string name="choose_stream_confirm">Выбрать поток</string>
+    <string name="re_stream_text">Изменить поток</string>
+    <string name="schedule_title">Расписание потока</string>
+    <string name="notifications_text">Включить уведомления</string>
+    <string name="notifications_on_text">Уведомления включены</string>
+    <string name="notifications_off_text">Уведомления выключены</string>
+
+    <string name="chedule_lesson1">1 урок: </string>
+    <string name="chedule_lesson2">2 урок: </string>
+    <string name="chedule_lesson3">3 урок: </string>
+    <string name="chedule_lesson4">4 урок: </string>
+    <string name="chedule_lesson5">5 урок: </string>
+    <string name="chedule_lesson6">6 урок: </string>
+    <string name="chedule_lesson7">7 урок: </string>
+    <string name="chedule_lesson8">8 урок: </string>
+    <string name="chedule_lesson9">9 урок: </string>
+    <string name="chedule_lesson10">10 урок: </string>
+
+
+</resources>
